@@ -1,0 +1,104 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+body{
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #f1f1f1;
+}
+.header{
+    width: 90%;
+    background: #ebebeb;
+    margin: auto;
+    padding: 30px 10px;
+    border-bottom: 1px dashed lightgray;
+    margin-bottom: 20px;
+}
+.header h1{
+    color: #3fa1e4;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: normal;
+}
+.more-info{
+    margin-left:57px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed lightgray;
+}
+.more-info article h2{
+    text-transform: capitalize;
+}
+.more-info article p{
+    width:780px;
+}
+.more-info div, article{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.more-info div{
+margin-left: 50px;
+}
+.more-info div label{
+    font-weight: bold;
+}
+.more-info div input{
+    width:170px;
+    height: 25px;
+    margin-top: 10px;
+}
+.personal-info, .request-reservation{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 57px;
+}
+.personal-info h2{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.personal-info input{
+    margin: 6px 0;
+    padding: 5px 3px;
+}
+.request-reservation{
+    margin-left: 300px;
+    width: 600px;
+}
+.request-reservation div{
+    display: inline-block;
+}
+.select-room{
+    margin-top: 3px;
+}
+.select-room select{
+    width:350px;
+    margin-bottom: 5px;
+}
+.request-reservation p{
+    margin-bottom: 3px;
+}
+.check-in input{
+    width: 258px;
+}
+.check-out input{
+    width:258px;
+}
+.request-reservation input, select{
+    padding: 3px 3px;
+}
+button{
+    border: 1px solid #3FA1E4;
+    border-radius: 15px;
+    background:#3FA1E4 ;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 10px 40px;
+    float: right;
+    margin-right: 280px;
+
+}
+button:hover{
+    background: lightseagreen;
+    cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
