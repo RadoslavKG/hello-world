@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extreme Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+<section class="header">
+        <h1>room reservation</h1>
+</section>
+<section class="more-info">
+<article>
+    <h2>basic information</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+        blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+        nec commodo.
+    </p>
+</article>
+    <div>
+        <label>Search</label>
+        <p></p>
+        <input type="search" name="search-area"/>
+    </div>
+</section>
+<section class="reservation-blank">
+    <div class="personal-info">
+        <h2>personal details</h2>
+        <input type="text" name="firstName" placeholder="First Name">
+        <p></p>
+        <input type="text" name="lastName" placeholder="Last Name">
+        <p></p>
+        <input type="text" name="email" placeholder="Enter Email">
+    </div>
+    <div class="request-reservation">
+    <h2>Request a reservation</h2>
+        <div class="select-room">
+            <label>Select a Room</label>
+            <p></p>
+            <select name="selectRoom">
+                <option value="Room1">Room 1</option>
+                <option value="Room2">Room 2</option>
+                <option value="Room3">Room 3</option>
+            </select>
+        </div>
+        <div class="room-numbers">
+            <label>Number of Rooms</label>
+            <p></p>
+            <input type="text" name="countRooms"/>
+        </div>
+        <div class="check-in">
+            <label>Check-In</label>
+            <p></p>
+            <input type="date" name="checkIn"/>
+        </div>
+        <div class="check-out">
+            <label>Check-Out</label>
+            <p></p>
+            <input type="date" name="checkOut"/>
+        </div>
+    </div>
+</section>
+<button>Book Now</button>
+</body>
+</html>
